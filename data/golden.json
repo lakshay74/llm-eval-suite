@@ -1,0 +1,143 @@
+[
+  {
+    "question": "What are the library opening hours?",
+    "expected_any": [
+      "8",
+      "9"
+    ],
+    "answerable": true
+  },
+  {
+    "question": "Is the library open on Sunday?",
+    "expected_any": [
+      "closed"
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How many books can a student borrow?",
+    "expected_any": [
+      "5"
+    ],
+    "answerable": true
+  },
+  {
+    "question": "For how many days can I keep a book?",
+    "expected_any": [
+      "14"
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What is the late fee per day?",
+    "expected_any": [
+      "rs 2",
+      "2"
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How many times can I renew a book?",
+    "expected_any": [
+      "twice",
+      "two",
+      "2"
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What do I pay if I lose a book?",
+    "expected_any": [
+      "100"
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How long can I book a study room?",
+    "expected_any": [
+      "2 hours",
+      "two hours"
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How much does printing cost?",
+    "expected_any": [
+      "rs 1",
+      "1 per page"
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What do guests need for Wi-Fi?",
+    "expected_any": [
+      "id"
+    ],
+    "answerable": true
+  },
+  {
+    "question": "Who is the principal of the college?",
+    "expected_any": [],
+    "answerable": false
+  },
+  {
+    "question": "What is the capital of France?",
+    "expected_any": [],
+    "answerable": false
+  },
+  {
+    "question": "Does the library have a cafe?",
+    "expected_any": [],
+    "answerable": false
+  },
+  {
+    "question": "What days of the week is the library open?",
+    "expected_any": ["monday to saturday", "monday"],
+    "answerable": true
+  },
+  {
+    "question": "What time is the library open until on Saturday?",
+    "expected_any": ["9 pm", "9"],
+    "answerable": true
+  },
+  {
+    "question": "Can a student borrow more than five books at once?",
+    "expected_any": ["5", "up to"],
+    "answerable": true
+  },
+  {
+    "question": "How do I renew a book, and what condition applies?",
+    "expected_any": ["online", "reserved"],
+    "answerable": true
+  },
+  {
+    "question": "Where can I reserve a study room?",
+    "expected_any": ["front desk", "library app"],
+    "answerable": true
+  },
+  {
+    "question": "What must a guest show to use the Wi-Fi?",
+    "expected_any": ["valid id", "front desk"],
+    "answerable": true
+  },
+  {
+    "question": "What extra fee is charged for a lost book?",
+    "expected_any": ["rs 100", "processing fee"],
+    "answerable": true
+  },
+  {
+    "question": "How much does it cost to print one page?",
+    "expected_any": ["rs 1 per page", "rs 1"],
+    "answerable": true
+  },
+  {
+    "question": "Does the campus have parking?",
+    "expected_any": [],
+    "answerable": false
+  },
+  {
+    "question": "What is the librarian's name?",
+    "expected_any": [],
+    "answerable": false
+  }
+]
