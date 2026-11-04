@@ -28,8 +28,13 @@ Without a key the suite runs in offline **mock mode** (keyword retrieval). That 
 | injection |  |  |  |
 | edge_cases |  |  |  |
 
+## Offline mock baseline (not model performance)
+The final offline run passed 44/44 checks: edge cases 8/8, golden 23/23, and injection 13/13. This verifies the test harness and keyword-based mock only; no Groq API run was performed.
+
 ## Findings
-<!-- Write 3-5 honest lines: which tests failed, why, what you changed in the prompt, and the before/after pass rate. -->
+- The first expanded mock run had 4 failing cases because expected text was case-sensitive, one question matched an unrelated sentence, and one out-of-scope question matched the FAQ heading.
+- Adjusted the question and expected text; the final offline run passed 44/44.
+- No system-prompt change was needed or applied. Live model behavior and before/after prompt rates remain unmeasured.
 
 ## CI
 `.github/workflows/tests.yml` runs the suite on every push, publishes the summary table, and uploads the results as an artifact. Add `GROQ_API_KEY` under Settings > Secrets > Actions to run live.
